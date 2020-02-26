@@ -17,7 +17,7 @@ GEM
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
-    rake (10.3.2)
+    rake (13.0.1)
     rspec (3.0.0)
       rspec-core (~> 3.0.0)
       rspec-expectations (~> 3.0.0)
@@ -46,6 +46,9 @@ PLATFORMS
 DEPENDENCIES
   jenkins-plugin-runtime (~> 0.2.3)
   jpi (~> 0.4.0)
-  rake
+  rake (>= 12.3.3)
   rspec (>= 3.0.0)
   sinatra
+
+BUNDLED WITH
+   1.17.3
