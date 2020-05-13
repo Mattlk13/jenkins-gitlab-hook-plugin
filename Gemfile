@@ -5,7 +5,7 @@ source 'http://rubygems.org'
 gem 'jenkins-plugin-runtime', '~> 0.2.3'
 
 # using sinatra to run the web hook
-gem 'sinatra'
+gem 'sinatra', '>= 2.0.0'
 
 group :development do
   gem 'jpi', '~> 0.4.0'
